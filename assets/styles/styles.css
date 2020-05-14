@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap');
+/* font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 60px;
+    position: sticky;
+    top: 0;
+    text-align: right;
+}
+
+.nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #bc3d2f;
+}
+
+#logo,
+#logo2{
+    font-family: 'Fredoka One', cursive;
+    font-size:32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #bc3d2f;
+}
+
+#logo2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+nav a:hover,
+nav #logo:hover{
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.box-nav{
+    flex-basis: 50%;
+}
+
+.logo{
+    text-align: left;
+}
+
+.nav{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    padding: 60px;
+    text-align: left;
+    color: white;
+    overflow: auto;
+}
+
+#home{
+    border-bottom: #000000;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.box2{
+    flex-basis: 50%;
+}
+
+.box1{
+    flex-basis: 50%;
+    padding-left: 30px;
+    padding-top: 150px;       
+}
+
+.core-values{
+    display: flex;
+    flex-direction: column;
+
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(88,21,50,0.3);
+    padding: 50px;
+    padding-top: 30px;
+}
+
+#core-values{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;   
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.value-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.values{
+    flex-grow: 1;
+ 
+    /* properti lainnya */
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    color: #bc3d2f;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.val-image{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    max-height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+#solution{
+    /*background: linear-gradient(to right, #c03c34, #b43c4c, #b03c54, #a8446c);*/
+    background-color: white;
+    color: #bc3d2f;
+}
+
+#solution-title{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 30px;
+}
+
+.solution-image{
+    max-height: 400px;
+}
+
+.article-box{
+    padding-left: 30px;
+    padding-top: 150px; 
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.article-box,
+.image-box{
+    flex-basis: 50%;
+}
+
+#consult{
+    flex-direction: row-reverse;
+}
+
+#career{
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom right, #bc3d2f, #8c43ad);
+    border-top: #000000;
+    border-bottom: #000000;
+    box-shadow: 0 10px 30px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.double-box{
+    flex-basis: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.single-box{
+    color: #bc3d2f;
+    flex-basis: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-left: #000000;
+    border-right: #000000;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 80px;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+#vacancy-number{
+    font-size: 42px;
+    font-weight: bolder;
+    padding-top: -100px;
+    padding-bottom: -100px;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+#job-open{
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+#join-button{
+    border: 3px solid black;;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    width: auto;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 36px;
+    background-color: #bc3d2f;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#join-button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#join-button:active{
+    background-color: #4b1812;
+}
+
+#join-text{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+#contact{
+    margin: 60px auto;
+    padding: 0 60px;
+    text-decoration: none;
+    color: #bc3d2f;
+    float: left;
+    width: 60%;
+    max-width: 1000px;
+}
+
+#first-box,
+#second-box{
+    flex-basis: 50%;
+}
+
+#second-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media,
+.newsletter{
+    color: #963025;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    flex-basis: 40;
+}
+
+.social-media{
+    margin-bottom: 40px;
+}
+
+.newsletter{
+    margin-top: 40px;
+}
+
+
+h5{
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.social-logo{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+.social-logo:hover{
+    width: 15%;
+    height: 155%;
+    cursor: pointer;
+}
+
+.social-logo:active{
+    fill: #70241c;
+}
+
+#social-logo{
+    fill: #963025;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.newsletter{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.newsletter-box{
+    margin-bottom: 0px;
+}
+
+#newsletter{
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input{
+    border-radius: 5px;
+    font-family: 'Fredoka One', cursive;
+    border-color: #963025;
+    padding-left: 5px;
+}
+
+#subscribe-button{
+    margin-top: 2px;
+    min-width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    background-color: #963025;;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #70241c;
+}
+
+#subscribe-button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#subscribe-button:active{
+    background-color: #70241c;
+}
+
+#subscribe-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: white;
+}
+
+#tagline{
+    font-weight: bold;
+}
+
+.desc{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#desc{
+    margin-top: 30px;
+}
+
+.career-image{
+    padding-top: 30px;
+    max-height: 300px;
+}
+
+aside{
+    float: right;
+    width: 35%;
+    padding-left: 20px;
+}
+
+#dev-image{
+    height: 200px;
+}
+
+.profile header{
+    text-align: center;
+    object-position: center;
+} 
+
+h3{
+    margin: 0 auto;
+}
+
+h6{
+    font-size: 24px;
+}
+
+table{
+    margin: 0;
+}
+
+section{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+figure{
+    width: 300px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.card{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile{
+    margin: 25px auto;
+    max-width: 400px;
+    box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom left, #8c43ad, #bc3d2f);
+    color: white;
+}
+
+.grad1{
+    background-image: linear-gradient(to bottom left, #8c43ad, #bc3d2f);
+    /* webkit-mask-image:-webkit-gradient(linear, left top, left bottom,from(rgba(64, 92, 177, 1)), to(rgba(64,92,177,0))) */
+}
+
+main{
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to bottom left, #bc3d2f, #8c43ad);
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 513px){
+    #contact{
+        width: 60%;
+    } 
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
